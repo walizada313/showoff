@@ -1,0 +1,33 @@
+body, html{
+	height: 100%;
+	width: 100%;
+	background: url(images/forest.jpeg);
+}
+.container{
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.title{
+	color: orange;
+	text-transform: uppercase;
+}
+
+.btn{
+	padding: 1em 2em;
+	border-color: orange;
+	border-radius: 90px;
+	text-transform: uppercase;
+	background-color: orange;
+	transition: 1s;
+}
+.btn:hover{
+	transform: scale(1.1);
+}
+hr{
+	border-color: orange;
+	max-width: 100px;
+	border-width: 10px;
+}
